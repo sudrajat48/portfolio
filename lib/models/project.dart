@@ -8,7 +8,7 @@ class Project {
 List<Project> demo_projects = [
   Project(
     title: "Portofolio",
-    link: "https://github.com/achmadrizkin/flutter_web_portofolio",
+    link: "https://github.com/sudrajat48/potofolio",
     description:
         "- Responsive\n- Launch URL\n- Clean Code and a lot of more...",
   ),
