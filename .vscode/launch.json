@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\Rizki\\.FLUTTER\\portofolio_website\\web\\index.html"
+            "file": "C:\\Application\\portofolio\\web\\index.html"
         }
     ]
 }

@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portofolio_website/constaint.dart';
-import 'package:portofolio_website/screen/home/home_screen.dart';
+import 'package:portofolio/constaint.dart';
+import 'package:portofolio/screens/home/home_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,11 +23,11 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)
             .apply(bodyColor: Colors.white)
             .copyWith(
-              bodyText1: TextStyle(color: bodyTextColor),
-              bodyText2: TextStyle(color: bodyTextColor),
+              bodyText1: const TextStyle(color: bodyTextColor),
+              bodyText2: const TextStyle(color: bodyTextColor),
             ),
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
