@@ -24,8 +24,6 @@ A Flutter app based on the design of the Portofolio, created by _Sudrajat_,
 - Run it
 ```
 
-## Link Website
-
 
 ## Preview App
 
